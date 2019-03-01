@@ -103,7 +103,8 @@ char* MyString::c_str() const
 
 //=====================================================================
 // overloaded output operator that allows the user to cout the instance 
-// without having to access the separate parts of the instance
+// without having to access the separate parts of the instance and 
+// without outputting errors
 // this is not a member function
 //=====================================================================
 ostream& operator << (ostream& str, const MyString& other)
